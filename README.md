@@ -8,19 +8,19 @@ Exploratory Data Analysis (EDA) on the impact of news sentiment on stock market 
 
 #### Run the following command to clone the repository to your local machine and navigate into the project directory:
 
-git clone YOUR_REPOSITORY_URL
+git clone YOUR_REPOSITORY_URL<br>
 cd your-repository
 
 ### Set Up a Virtual Environment
 
 #### Create and activate a virtual environment using the commands below:
 
-On Windows:
-python -m venv venv
+On Windows:<br>
+python -m venv venv<br>
 venv\Scripts\activate
 
-On macOS/Linux:
-python3 -m venv venv
+On macOS/Linux:<br>
+python3 -m venv venv<br>
 source venv/bin/activate
 
 ### Install Dependencies
