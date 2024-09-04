@@ -49,5 +49,11 @@ pip install -r requirements.txt
 ### Technical Indicators
 - **TA-Lib**: Calculate technical indicators such as moving averages, RSI (Relative Strength Index), and MACD (Moving Average Convergence Divergence) using the Stock Price Integration Dataset to analyze stock price movements and volatility.
 
+## Correlation Analysis
+- **Pearson Correlation:** Initially assessed the linear relationship between sentiment and daily stock prices. Results showed an almost negligible linear relationship.
+- **Spearman's Rank Correlation:** Applied to capture potential monotonic relationships. Similar results to Pearson’s correlation indicated that sentiment alone may not have a significant impact.
+- **Lagged Correlation:** Investigated if sentiment has a delayed effect on stock prices. Results suggested that news sentiment alone might not significantly affect stock prices, and its impact could be more pronounced when integrated with other factors.
+
+
 ### Data Visualization
 - **Visualizations**: Create charts and graphs to illustrate data insights, the impact of news sentiment on stock prices, and the relationships between different indicators. This helps visualize the correlation between news sentiment and stock market trends.
